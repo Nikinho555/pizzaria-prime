@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+@media screen and (max-width: 1366px) {
+  .botoes {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    gap: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  flex-direction: row;
+}
+
+.botoes {
+  display: flex;
+}
+
+.logo_pizza {
+  border-radius: 8px;
+}
+
+header {
+  background-color: black;
+}
+
+.menu {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 28px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.menu:hover {
+  color: red;
+}
+
+#btn_pedido {
+  background-color: red;
+  height: 33px;
+  border-radius: 5px;
+}
+
+#fazer_pedido:hover {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+nav > img {
+  background-image: url(42e05af4-6553-4121-8620-4ac8bafa769c.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: 82vh;
+}
+
+#textos_banner {
+  position: absolute;
+  padding-left: 70px;
+  padding-top: 70px;
+}
+
+#textos_banner > h3 {
+  color: white;
+}
+
+#titulo_banner > span {
+  color: white;
+  font-size: 60px;
+}
+
+.btn_Banner {
+  background-color: red;
+  width: 130px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn_Banner:hover {
+  color: white;
+}
+
+.nav_Pizzas {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.div_pizzas_cards{
+    padding-left: 160px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4  {
+  border: 1px solid yellow;
+  width: 200px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  float: left;
+  border-radius: 8px;
+  margin: 20px;
+
+}
+
+.pizza_calabresa, .pizza_quatroqueijos, .pizza_frangocomcatupiry, .pizza_portuguesa{
+  border-radius: 8px;
+  width: 195px;
+}
+
+
+.card1 > p{
+  color: rgb(80, 79, 79);
+}
+
+
+.card2 > p{
+  color: rgb(80, 79, 79);
+}
+
+
+.card3 > p{
+  color: rgb(80, 79, 79);
+}
+
+
+.card4 > p{
+  color: rgb(80, 79, 79);
+}
+
+
+.card1 > span{
+  color: yellow;
+}
+.card2 > span{
+  color: yellow;
+}
+.card3 > span{
+  color: yellow;
+}
+.card4 > span{
+  color: yellow;
+}
