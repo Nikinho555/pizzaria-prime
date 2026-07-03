@@ -219,6 +219,7 @@ a:hover {
  display: flex;
  flex-wrap: wrap;
  gap: 10px;
+ justify-content: center;
 }
 
 
@@ -301,6 +302,7 @@ a:hover {
  display: flex;
  flex-wrap: wrap;
  gap: 10px;
+ justify-content: center;
 }
 
 /*COMEÇO CARD1 */
