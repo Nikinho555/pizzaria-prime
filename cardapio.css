@@ -89,6 +89,10 @@ a:hover {
   header {
     padding: 15px 20px;
   }
+  body{
+    margin: auto;
+    padding: 0;
+  }
 
   .menu-hamburguer {
     display: block;
@@ -129,7 +133,10 @@ a:hover {
     color: red;
   }
 
-
+ .links{
+  display: flex;
+  flex-wrap: wrap;
+ }
   input {
     border: 1px solid silver;
     border-radius: 8px;
@@ -318,6 +325,7 @@ a:hover {
  border-radius: 6px;
  margin-top: 60px;
 }
+
  
 /*FINAL CARD1 */
 
@@ -333,6 +341,7 @@ a:hover {
 }
 
 .card2{
+
   background-color: black;
   height: auto;
   width: 200px;
@@ -340,6 +349,12 @@ a:hover {
   border: 1px solid yellow;
  border-radius: 6px;
  margin-top: 60px;
+}
+
+.card2 > img{
+  border-radius: 5px;
+  width: 190px;
+  height: 130px;
 }
 
 /*FINAL CARD2*/
@@ -365,6 +380,10 @@ a:hover {
  border-radius: 6px;
  margin-top: 60px;
 }
+
+.card3 > img{
+  border-radius: 5px;
+}
 /*FINAL CARD3 */
 
 /*COMEÇO CARD4 */
@@ -386,6 +405,10 @@ a:hover {
   border: 1px solid yellow;
  border-radius: 6px;
  margin-top: 60px;
+}
+
+.card4 > img{
+  border-radius: 5px;
 }
 /*FINAL CARD4*/
 
@@ -409,6 +432,10 @@ a:hover {
  border-radius: 6px;
  margin-top: 60px;
 }
+
+.card5 > img{
+  border-radius: 5px;
+}
 /*FINAL CARD5*/
 
 /*COMEÇO CARD6 */
@@ -430,5 +457,9 @@ a:hover {
   border: 1px solid yellow;
  border-radius: 6px;
  margin-top: 60px;
+}
+
+.card6 > img{
+  border-radius: 5px;
 }
 /*FINAL CARD6 */
