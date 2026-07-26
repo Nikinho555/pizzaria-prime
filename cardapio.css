@@ -327,6 +327,15 @@ a:hover {
  margin-top: 60px;
 }
 
+.card1 > button{
+  color: white;
+  font-size: 22px;
+  background-color: red;
+  border-radius: 4px;
+    width: auto;
+    padding: 4px 4px 4px 4px;
+    margin-top: 8px;
+}
  
 /*FINAL CARD1 */
 
@@ -358,6 +367,16 @@ a:hover {
   height: 130px;
 }
 
+.card2 > button{
+  color: white;
+  font-size: 22px;
+  background-color: red;
+  border-radius: 4px;
+    width: auto;
+    padding: 4px 4px 4px 4px;
+   margin-top: 19px;
+  }
+
 /*FINAL CARD2*/
 
 
@@ -385,6 +404,16 @@ a:hover {
 .card3 > img{
   border-radius: 5px;
 }
+
+.card3 > button{
+  color: white;
+  font-size: 22px;
+  background-color: red;
+  border-radius: 4px;
+    width: auto;
+    padding: 4px 4px 4px 4px;
+   margin-bottom: 2px;
+  }
 /*FINAL CARD3 */
 
 /*COMEÇO CARD4 */
@@ -411,6 +440,17 @@ a:hover {
 .card4 > img{
   border-radius: 5px;
 }
+
+.card4 > button{
+  color: white;
+  font-size: 22px;
+  background-color: red;
+  border-radius: 4px;
+    width: auto;
+    padding: 4px 4px 4px 4px;
+    margin-top: 23px;
+}
+
 /*FINAL CARD4*/
 
 /*COMEÇO CARD5 */
@@ -436,6 +476,16 @@ a:hover {
 
 .card5 > img{
   border-radius: 5px;
+}
+
+.card5 > button{
+  color: white;
+  font-size: 22px;
+  background-color: red;
+  border-radius: 4px;
+    width: auto;
+    padding: 4px 4px 4px 4px;
+    margin-top: 36px;
 }
 /*FINAL CARD5*/
 
@@ -463,4 +513,17 @@ a:hover {
 .card6 > img{
   border-radius: 5px;
 }
+
+.card6 > button{
+  color: white;
+  font-size: 22px;
+  background-color: red;
+  border-radius: 4px;
+    width: auto;
+    padding: 4px 4px 4px 4px;
+   margin-top: 8px ;
+  }
 /*FINAL CARD6 */
+
+/* Button cards */
+
